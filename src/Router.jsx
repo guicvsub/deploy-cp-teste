@@ -8,18 +8,17 @@ import Team  from './companetes/Team/Team'
 
 
 
-const  AppRotas = ()=>{
-    return(
-       
-            <Routes>
-                <Route  path="/" element={<App/>}></Route>
-                     <Route  path="/contato" element={<Form/>}></Route>
-                     <Route  path="/listProjects" element={<Projects/>}></Route>
-                     <Route  path="/Team" element={<Team/>}></Route>
-              
-            </Routes>
-        
-        
-    )
-}
-export default AppRotas
+const AppRoutes = () => {
+    return (
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/contato" element={<Form />} />
+          <Route path="/listProjects" element={<Projects />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
+      </Router>
+    );
+  };
+  
+export default AppRoutes

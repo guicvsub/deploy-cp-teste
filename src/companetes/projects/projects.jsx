@@ -6,7 +6,7 @@ import Footer from "../Footer/Fotter"
 function Projects(){
     return(
         <>
-       <Header />
+   
             
         <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6 -mt-16000000000000000000000">
             <div class="flex flex-wrap items-center justify-between mb-8">
@@ -104,7 +104,7 @@ function Projects(){
                 </div>
             </div>
         </section>
-        <Footer/>
+       
         </>
     )
 }

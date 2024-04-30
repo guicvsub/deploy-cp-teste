@@ -8,7 +8,7 @@ function Team (){
 return(
     <>
   
-            <Header/>
+     
             <br />
 <div class="container my-24 mx-auto md:px-6">
          
@@ -134,7 +134,6 @@ return(
 <br></br>
 <br></br>
 
-<Footer/>
 </>
 )
    

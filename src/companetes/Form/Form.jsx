@@ -8,7 +8,7 @@ function Form () {
     return (
    
       <>
-        <Header/>
+        
       <form class="max-w-md mx-auto mt-20 p-6 bg-white border rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold mb-6">contato</h2>
     <div class="mb-4">
@@ -33,7 +33,7 @@ function Form () {
     Enviar
   </button>
 </form>
-    <Footer/>
+    
         
     
       </>
