@@ -1,3 +1,9 @@
+
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 function Footer() {
 
 
@@ -13,19 +19,18 @@ function Footer() {
         <div className="container mx-auto text-center">
         <div class="flex justify-center space-x-5">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+        <FaFacebook size={30} />
+
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+           <FaLinkedin size={30}/>
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+        <FaInstagram  size={30}/>
         </a>
-        <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-        </a>
+      
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+          <FaXTwitter size={30}/>
         </a>
     </div>
             <p>&copy; todos os diretos reservados equipe timao.</p>

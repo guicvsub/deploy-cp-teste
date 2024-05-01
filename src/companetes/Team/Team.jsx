@@ -23,7 +23,7 @@ return(
             </div>
           </div>
           <div class="p-6  ">
-            <Dados nomedev3={'Michel Dutra'} Stackdev3={'Frontend develo'}/>
+            <Dados nomedev1={'Michel Dutra'} Stackdev1={'Frontend develo'}/>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
             
@@ -57,7 +57,7 @@ return(
             </div>
           </div>
           <div class="p-6">
-           <Dados nomedev2={"guilherme Santiago"} Stackdev2={"Backend developer"}/>
+           <Dados nomedev1={"guilherme Santiago"} Stackdev1={"Backend developer"}/>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
           
