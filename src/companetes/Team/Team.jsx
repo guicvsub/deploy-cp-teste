@@ -1,9 +1,4 @@
-
-import AppRotas from "../../Router"
-import { Link } from "react-router-dom"
-import Header from "../Header/Header"
-import Footer from "../Footer/Fotter"
-
+import Dados from "../Dados/Dados Team/DadosTeam"
 function Team (){
 return(
     <>
@@ -28,8 +23,7 @@ return(
             </div>
           </div>
           <div class="p-6  ">
-            <h5 class="mb-4 text-lg font-bold">Michel Dutra </h5>
-            <p class="mb-6">Frontend Developer</p>
+            <Dados nomedev3={'Michel Dutra'} Stackdev3={'Frontend develo'}/>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
             
@@ -63,8 +57,7 @@ return(
             </div>
           </div>
           <div class="p-6">
-            <h5 class="mb-4 text-lg font-bold">Guilherme Santiago</h5>
-            <p class="mb-6">Backend Developer</p>
+           <Dados nomedev2={"guilherme Santiago"} Stackdev2={"Backend developer"}/>
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
           
@@ -98,8 +91,9 @@ return(
             </div>
           </div>
           <div class="p-6">
-            <h5 class="mb-4 text-lg font-bold">Gabriel Fiore</h5>
-            <p class="mb-6">Fullstack Deloper</p>
+            
+            <Dados nomedev1={'Gabriel Fiore'} Stackdev1={"fulltack Developer"}/>
+          
             <ul class="mx-auto flex list-inside justify-center">
               <a href="#!" class="px-2">
            

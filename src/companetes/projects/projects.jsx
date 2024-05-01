@@ -3,6 +3,7 @@ import AppRotas from "../../Router"
 import { Link } from "react-router-dom"
 import Header from "../Header/Header"
 import Footer from "../Footer/Fotter"
+import DadosProjetos from "../Dados/Dados Projetos/DadosProjetos"
 function Projects(){
     return(
         <>
@@ -23,16 +24,11 @@ function Projects(){
                         <div class="triangle"></div>
                         <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
                             <div>
-                                <a href="#"
-                                    class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Plataforma Icr </a>
-                                <a href="#"
-                                    class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                                    Kahoot Educação, Saúde e Diversão
-                                </a>
-                                <p class="mb-4">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus corporis commodi
-                                    aperiam, amet cupiditate?
-                                </p>
+                            <DadosProjetos
+                                    tituloprojeto={"esse e um teste"}
+                                    linkAcesso={"https://exemplo.com"}
+                                    descricao={"Descrição do projeto"}
+/>
                             </div>
                             <div>
                         <a to="/listProjects"
@@ -53,16 +49,10 @@ function Projects(){
                         <div class="triangle"></div>
                         <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                             <div>
-                                <a href="#"
-                                    class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Client-based
-                                    Adoption</a>
-                                <a href="#"
-                                    class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                                    Old School Art
-                                </a>
-                                <p class="mb-4">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus.
-                                </p>
+                            <DadosProjetos
+                tituloprojeto={"Projeto 2"}
+                linkAcesso={"https://projeto2.com"}
+                descricao={"Descrição do Projeto 2"}/>
                             </div>
                             <div>
                                 <a href="#"
@@ -83,22 +73,16 @@ function Projects(){
                         <div class="triangle"></div>
                         <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                             <div>
-                                <a href="#"
-                                    class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Intellectual
-                                    Capital</a>
-                                <a href="#"
-                                    class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                                    5 Things To Do About Rain
-                                </a>
-                                <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, neque. Eius, ea possimus.
-                                </p>
+                            <DadosProjetos
+                tituloprojeto={"Projeto 2"}
+                linkAcesso={"https://projeto2.com"}
+                descricao={"Descrição do Projeto 2"}
+                        />
+                 
                             </div>
-                            <div>
-                                <a href="/listProjects"
-                                    class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">
-                                   </a>
-                            </div>
+                            <a href="#"
+                                    class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">Read
+                                    More </a>
                         </div>
                     </div>
                 </div>
