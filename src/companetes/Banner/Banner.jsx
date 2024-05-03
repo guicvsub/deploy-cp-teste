@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 function Banner() {
-  const lines = ["Welcome to", "Our Portfolio,", "We are Web Developers."];
+  const lines = ["Welcome to", "Our Portfolio,", "We are Developers."];
   const [currentLine, setCurrentLine] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);

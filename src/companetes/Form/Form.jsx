@@ -75,7 +75,7 @@ function Form() {
           />
           {errors.message && <span className="text-red-500">{errors.message}</span>}
         </div>
-        <button class="bg-transparent hover:bg-purple-800 text-purple-800 font-semibold hover:text-white py-2 px-4 border border-purple-800 hover:border-transparent rounded">
+        <button className="bg-transparent hover:bg-purple-800 text-purple-800 font-semibold hover:text-white py-2 px-4 border border-purple-800 hover:border-transparent rounded">
   Enviar 
 </button>
       </form>

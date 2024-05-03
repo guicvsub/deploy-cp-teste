@@ -1,4 +1,4 @@
-// App.jsx
+
 import Form from "../src/companetes/Form/Form.jsx";
 import Projects from "../src/companetes/projects/projects.jsx";
 import Team from "../src/companetes/Team/Team.jsx"

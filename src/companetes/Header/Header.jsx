@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Link } from "react-router-dom";
 import logo from '../../assets/imgs/logo.png'
-import Projects from '../projects/projects';
+
 function Header(){
 
 
@@ -17,7 +17,7 @@ function Header(){
           <img className="h-10 w-10 self-center" src={logo} alt="Logo" />
         </div>
         <div>
-          <a href="/home" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Equipe Timão</a><br />
+          <Link to="/home" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Equipe Timão</Link><br />
           <span className="text-xs text-grey-dark">Alunos Fiap 1ESPB</span>
         </div>
       </div>
