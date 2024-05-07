@@ -20,7 +20,7 @@ function Projects(){
                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
                     <div>
                         <DadosProjetos
-                            tituloprojeto={"Plataforna icr "}
+                            tituloprojeto={"Plataforma icr "}
                             linkAcesso={""}
                             descricao={"Plataforma Ludica com quiz e videos interativos para os pacientes do icr stacks utilizadas HTML, CSS e JS"}
                         />
@@ -47,7 +47,7 @@ function Projects(){
                         <DadosProjetos
                             tituloprojeto={"Quiz iot "}
                             linkAcesso={""}
-                            descricao={"Quiz game com anduino educativo stacks c++"}
+                            descricao={"Quiz game com arduino educativo stacks c++"}
                             />
                     </div>
                     <div>
@@ -72,7 +72,7 @@ function Projects(){
                         <DadosProjetos
                             tituloprojeto={"kahhot saude "}
                             linkAcesso={"https://create.kahoot.it/share/hospital-das-clinicas-icr/7ac4832b-5574-42d5-9c00-39dc7ef1217"}
-                            descricao={"quiz infantil educativo educativo em utilizando kahoot "}
+                            descricao={"quiz infantil educativo utilizando kahoot   platoforma icr "}
                         />
                     </div>
                     <a href="https://kahoot.it/challenge/?quiz-id=7ac4832b-5574-42d5-9c00-39dc7ef1217b&single-player=true"

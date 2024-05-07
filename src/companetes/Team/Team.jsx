@@ -23,7 +23,7 @@ return(
             </div>
           </div>
           <div className="p-6  ">
-            <Dados nomedev1={'Michel Dutra'} Stackdev1={'Frontend develo'}/>
+            <Dados nomedev1={'Michel Dutra'} Stackdev1={'Frontend developer'}/>
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
             
@@ -92,7 +92,7 @@ return(
           </div>
           <div className="p-6">
             
-            <Dados nomedev1={'Gabriel Fiore'} Stackdev1={"fulltack Developer"}/>
+            <Dados nomedev1={'Gabriel Fiore'} Stackdev1={"fullstack Developer"}/>
           
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
